@@ -1,0 +1,45 @@
+{
+  "atlasVersion":"1.1.0",
+  "namespace":"io.dataset.atlas.types",
+  "name":"Atlas Core Node Types",
+  "documentation":"These are the core node types that act as primatives for nodes,  extend them in your own nodes",
+  "version":"1.1.0",
+  "organization":{
+    "name":"Dataset IO",
+    "webSiteUrl":"http://dataset.io"
+  },
+  "contributors":[{
+    "name":"Garry Wright"
+  },{
+    "name":"Philip Dodds",
+    "twitterHandle" : "philipdodds"
+  }],
+  "license":{
+    "name":"Apache Software License v2.0",
+    "description":"Apache Software License",
+    "copyrightNotice":"(C) Copyright 2012 FiMod (http://fimod.org)",
+    "webUrl":"http://www.apache.org/licenses/LICENSE-2.0.html"
+  },
+  "nodes":[{
+    "name":"String",
+    "documentation":"A collection of characters"
+  },{
+    "name":"Date",
+    "documentation":"A date without a time portion"
+  },{
+    "name":"DateTime",
+    "documentation":"A date and time"
+  },{
+    "name":"Decimal",
+    "documentation":"A decimal"
+  },{
+    "name":"Number",
+    "documentation":"A number"
+  },{
+    "name":"Float",
+    "documentation":"A floating point number"
+  },{
+    "name":"Boolean",
+    "documentation":"A boolean true of false"
+  }]
+}
