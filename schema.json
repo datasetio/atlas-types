@@ -17,7 +17,7 @@
   "license":{
     "name":"Apache Software License v2.0",
     "description":"Apache Software License",
-    "copyrightNotice":"(C) Copyright 2012 FiMod (http://fimod.org)",
+    "copyrightNotice":"(C) Copyright 2012 Dataset IO (http://dataset.io)",
     "webUrl":"http://www.apache.org/licenses/LICENSE-2.0.html"
   },
   "nodes":[{
