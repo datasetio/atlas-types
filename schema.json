@@ -1,45 +1,97 @@
 {
-  "atlasVersion":"1.1.0",
-  "namespace":"io.dataset.atlas.types",
-  "name":"Atlas Core Node Types",
-  "documentation":"These are the core node types that act as primatives for nodes,  extend them in your own nodes",
-  "version":"1.1.0",
-  "organization":{
-    "name":"Dataset IO",
-    "webSiteUrl":"http://dataset.io"
-  },
-  "contributors":[{
-    "name":"Garry Wright"
-  },{
-    "name":"Philip Dodds",
-    "twitterHandle" : "philipdodds"
-  }],
-  "license":{
-    "name":"Apache Software License v2.0",
-    "description":"Apache Software License",
-    "copyrightNotice":"(C) Copyright 2012 Dataset IO (http://dataset.io)",
-    "webUrl":"http://www.apache.org/licenses/LICENSE-2.0.html"
-  },
-  "nodes":[{
-    "name":"String",
-    "documentation":"A collection of characters"
-  },{
-    "name":"Date",
-    "documentation":"A date without a time portion"
-  },{
-    "name":"DateTime",
-    "documentation":"A date and time"
-  },{
-    "name":"Decimal",
-    "documentation":"A decimal"
-  },{
-    "name":"Number",
-    "documentation":"A number"
-  },{
-    "name":"Float",
-    "documentation":"A floating point number"
-  },{
-    "name":"Boolean",
-    "documentation":"A boolean true of false"
-  }]
+    "atlasVersion": "1.1.0",
+    "namespace": "io.dataset.atlas.types",
+    "name": "Atlas Core Node Types",
+    "documentation": "These are the core node types that act as primitives for nodes",
+    "version": "1.1.0",
+    "organization": {
+        "name": "Dataset IO",
+        "webSiteUrl": "http://dataset.io"
+    },
+    "contributors": [
+        {
+            "name": "Garry Wright"
+        },
+        {
+            "name": "Philip Dodds",
+            "twitterHandle": "philipdodds"
+        }
+    ],
+    "license": {
+        "name": "Apache Software License v2.0",
+        "description": "Apache Software License",
+        "copyrightNotice": "(C) Copyright 2012 Dataset IO (http://dataset.io)",
+        "webUrl": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    },
+    "nodes": [
+        {
+            "name": "String",
+            "documentation": "A collection of characters",
+            "datum": true,
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:string",
+                "io.dataset.atlas.java.javaType": "String",
+                "io.dataset.atlas.avro.avroType": "String"
+            }
+        },
+        {
+            "name": "Date",
+            "documentation": "A date without a time portion",
+            "datum": true,
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:date",
+                "io.dataset.atlas.java.javaType": "Date",
+                "io.dataset.atlas.avro.avroType": "String"
+            }
+        },
+        {
+            "name": "DateTime",
+            "documentation": "A date and time",
+            "datum": true,
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:dateTime",
+                "io.dataset.atlas.java.javaType": "Timestamp",
+                "io.dataset.atlas.avro.avroType": "String"
+            }
+        },
+        {
+            "name": "Decimal",
+            "documentation": "A decimal",
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:decimal",
+                "io.dataset.atlas.java.javaType": "BigDecimal",
+                "io.dataset.atlas.avro.avroType": "String"
+            }
+        },
+        {
+            "name": "Number",
+            "documentation": "A number",
+            "datum": true,
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:integer",
+                "io.dataset.atlas.java.javaType": "Integer",
+                "io.dataset.atlas.avro.avroType": "Number"
+            }
+        },
+        {
+            "name": "Float",
+            "documentation": "A floating point number",
+            "datum": true,
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:float",
+                "io.dataset.atlas.java.javaType": "Float",
+                "io.dataset.atlas.avro.avroType": "String"
+            }
+        },
+        {
+            "name": "Boolean",
+            "documentation": "A boolean true of false",
+            "datum": true,
+            "features": {
+                "io.dataset.atlas.xml.xmlType": "xs:boolean",
+                "io.dataset.atlas.java.javaType": "Boolean",
+                "io.dataset.atlas.avro.avroType": "Boolean"
+            }
+        }
+    ]
 }
