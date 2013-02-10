@@ -1,7 +1,8 @@
 {
     "atlasVersion": "1.1.0",
     "namespace": "io.dataset.atlas.types",
-    "name": "Atlas Core Node Types",
+    "name": "Types",
+    "description": "Atlas Core Node Types",
     "documentation": "These are the core node types that act as primitives for nodes",
     "version": "1.1.0",
     "organization": {
@@ -13,7 +14,7 @@
             "name": "Garry Wright"
         },
         {
-            "name": "Philip Dodds",
+            "name": "Philip Dodds",a
             "twitterHandle": "philipdodds"
         }
     ],
@@ -57,6 +58,7 @@
         {
             "name": "Decimal",
             "documentation": "A decimal",
+            "datum": true,
             "features": {
                 "io.dataset.atlas.xml.xmlType": "xs:decimal",
                 "io.dataset.atlas.java.javaType": "BigDecimal",
