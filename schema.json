@@ -4,7 +4,7 @@
     "name": "Types",
     "description": "Atlas Core Node Types",
     "documentation": "These are the core node types that act as primitives for nodes",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "organization": {
         "name": "Dataset IO",
         "webSiteUrl": "http://dataset.io"
