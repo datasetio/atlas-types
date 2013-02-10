@@ -4,7 +4,3 @@ This Schema holds the base types at Atlas has available,  these are commonly use
 definitions to specify base typing.
 
 Changes to this schema are pushed to the Dataset IO Atlas Repository.
-
-
-
-For more information see [Atlas Schema Documentation](http://datasetio.github.com/atlas-schema)
