@@ -2,7 +2,7 @@
     "atlasVersion": "2.0.0",
     "namespace": "io.dataset.atlas.types",
     "name": "Types",
-    "description": "Atlas Core Node Types",
+    "description": "Atlas Core Node",
     "documentation": "These are the core node types that act as primitives for nodes",
     "version": "2.0.0",
     "organization": {
@@ -12,11 +12,11 @@
     "contributors": [
         {
             "name": "Garry Wright",
-            "organization": "Dataset IO"
+            "company": "Dataset IO"
         },
         {
             "name": "Philip Dodds",
-            "organization": "Dataset IO",
+            "company": "Dataset IO",
             "twitterHandle": "philipdodds"
         }
     ],
