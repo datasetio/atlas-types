@@ -12,11 +12,13 @@
     "contributors": [
         {
             "name": "Garry Wright",
+            "role": "Developer",
             "company": "Dataset IO"
         },
         {
             "name": "Phillip Dodds",
             "company": "Dataset IO",
+            "role": "Developer"
             "twitterHandle": "philipdodds"
         }
     ],
